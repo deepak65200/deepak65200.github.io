@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deepak Kumar Singh - Flutter, Android and iOS developer portfolio">
+  <title>Deepak Kumar Singh | Mobile Developer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #172033;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 960px;
+      margin: auto;
+      padding: 24px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    a { color: #2457d6; text-decoration: none; }
+    nav a { margin-left: 14px; }
+    .hero { padding: 80px 24px 60px; }
+    .hero p, .muted { color: #5d6678; }
+    h1 { font-size: clamp(36px, 6vw, 58px); line-height: 1.12; }
+    h2 { margin-top: 42px; }
+    .tag {
+      display: inline-block;
+      background: #e8eefc;
+      padding: 5px 12px;
+      margin: 4px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e3e8ef;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      background: #2457d6;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 8px;
+      margin: 8px 8px 0 0;
+    }
+    footer { border-top: 1px solid #e3e8ef; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Deepak Kumar Singh</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <p>TECH LEAD – MOBILITY · FLUTTER DEVELOPER</p>
+      <h1>Building mobile apps<br>that solve real problems.</h1>
+      <p>
+        I'm Deepak Kumar Singh, a mobile application developer with
+        4+ years of experience building Android and iOS applications
+        using Flutter, Dart, Kotlin and Java.
+      </p>
+      <a class="button" href="#projects">View Projects</a>
+      <a class="button" href="https://www.linkedin.com/in/deepak65200/">
+        LinkedIn Profile
+      </a>
+    </section>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I have worked on 20+ production mobile applications across
+        education, healthcare, HRMS, travel, hospitality and enterprise
+        solutions. My work includes application architecture, API
+        integrations, payment workflows, Firebase, performance
+        improvements, CI/CD and production releases.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <span class="tag">Flutter</span>
+      <span class="tag">Dart</span>
+      <span class="tag">Android</span>
+      <span class="tag">iOS</span>
+      <span class="tag">Kotlin</span>
+      <span class="tag">Java</span>
+      <span class="tag">REST APIs</span>
+      <span class="tag">Firebase</span>
+      <span class="tag">MVVM</span>
+      <span class="tag">CI/CD</span>
+      <span class="tag">Git</span>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="projects">
+        <article class="card">
+          <h3>Seek2Learn</h3>
+          <p>Online tutoring, live classes, tutor booking, chat and payments.</p>
+          <p class="muted">Flutter · Firebase · REST APIs</p>
+        </article>
+        <article class="card">
+          <h3>Guest House</h3>
+          <p>Property discovery, host management and stay booking workflows.</p>
+          <p class="muted">Flutter · Provider · Dio</p>
+        </article>
+        <article class="card">
+          <h3>Alobha HRMS</h3>
+          <p>Employee management, attendance, leave and payroll workflows.</p>
+          <p class="muted">Flutter · REST APIs</p>
+        </article>
+        <article class="card">
+          <h3>AstroFast</h3>
+          <p>Bus bookings, seat selection, e-tickets and mobile money payments.</p>
+          <p class="muted">Flutter · Payment Integrations</p>
+        </article>
+        <article class="card">
+          <h3>Enterprise MDM</h3>
+          <p>Android enterprise-device management and policy enforcement.</p>
+          <p class="muted">Android · Device Policy APIs</p>
+        </article>
+        <article class="card">
+          <h3>Dropty Mobility Apps</h3>
+          <p>Mobile development for Passenger, Crew and Kiosk applications.</p>
+          <p class="muted">Flutter · Firebase · CI/CD</p>
+        </article>
+      </div>
+      <p class="muted">
+        Project descriptions are summaries. Public app links and screenshots
+        can be added where available and approved for sharing.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>Interested in mobile development or exchanging technical ideas?</p>
+      <a class="button" href="https://www.linkedin.com/in/deepak65200/">
+        Connect on LinkedIn
+      </a>
+      <p>Email: deepaksingh.65200@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">© 2026 Deepak Kumar Singh</p>
+  </footer>
+</body>
+</html>
